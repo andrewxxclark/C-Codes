@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 //Variables
-float acumula_promedio,promedio;
+float acumula_promedio,promedio,mayoralamedia,menoralamedia;
 //Cuerpo del programa
 
 int main()
@@ -31,14 +31,19 @@ int main()
 	  
 	promedio = acumula_promedio / n; // el verdadero promedio se calcula a partir de la suma de los valores dividido entre la cantidad de elementos del arreglo
     
+    void mayoralamedia[n];
+    
+		 
    printf("\nLos valores que ingresaste fueron: \n");
    
    for(i=0;i<n;i++)
      {
-	   printf("% 5d",a[i]);
+	   printf("% 5d \n",a[i]);
 	 }
  
-   printf("El promedio de los %d elementos es: %0.2f",n,promedio);
+   printf("\n El promedio de los %d elementos es: %0.2f \n",n,promedio);
+   printf("los valores mayores al promedio son %0.2f \n", mayoralamedia);
+   printf("los valores menores al promedio son %0.2f \n", menoralamedia);
    
    getch();
 } 
