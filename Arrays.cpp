@@ -31,8 +31,10 @@ int main()
 	  
 	promedio = acumula_promedio / n; // el verdadero promedio se calcula a partir de la suma de los valores dividido entre la cantidad de elementos del arreglo
     
-    void mayoralamedia[n];
+    void mayoralamedia[100];
     
+    	if(a[i] > promedio)
+    	
 		 
    printf("\nLos valores que ingresaste fueron: \n");
    
